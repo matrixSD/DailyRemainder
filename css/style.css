@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Almarai", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e13b3b;
+    direction: rtl;
+    flex-direction: column;
+}
+::selection{
+    color: #fff;
+    background: #e13b3b;
+}
+.wrapper{
+    width: 370px;
+    padding: 25px 30px;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 7px 7px 20px rgba(0,0,0,0.05);
+}
+.wrapper .quoteContainer .quote i {
+    padding: 20px;
+}
+.button_cont {
+    padding: 10px;
+    display: flex;
+}
+.button_cont ul{
+    display: flex;
+}
+.button_cont ul li {
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    cursor: pointer;
+    color: #5372F0;
+    list-style: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #5372F0;
+    transition: all 0.3s ease;
+}
+.button_cont ul li:is(:hover, .active){
+    color: #fff;
+    background: #5372F0;
+}
+button {
+    padding: 10px 20px;
+    margin: 0px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+h3{
+  text-align: center;
+  padding-bottom: 10px;  
+}
+.footer p {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
