@@ -61,6 +61,7 @@ button {
     color: white;
     border: none;
     border-radius: 10px;
+    outline: none;
 }
 h3{
   text-align: center;
